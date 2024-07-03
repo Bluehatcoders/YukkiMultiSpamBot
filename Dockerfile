@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:12.6
 
 RUN apt update && apt upgrade -y
 RUN apt install git curl python3-pip -y
